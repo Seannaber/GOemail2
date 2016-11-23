@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+#container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+#top {
+  background-image: url("../img/bg.png");
+  background-size: cover;
+  padding: 25px 0 15px 0;
+}
+
+#top p {
+  text-align: center;
+}
+
+#logo {
+  width: 300px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+#vid {
+  width: 500px;
+  height: 350px;
+  background-color: blue;
+  margin: 0 auto;
+}
+
+.cta {
+  width: 135px;
+  background-color: yellow;
+  color: black;
+  border-radius: 3px;
+  box-shadow: 1px 1px 5px black;
+  margin: 20px auto;
+  padding: 5px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.25em;
+}
+
+.cta a {
+  text-decoration: none;
+  color: black;
+}
+
+#bottom {
+  width: 580px;
+  margin: 0 auto;
+}
+
+#bottom p {
+  text-align: center;
+}
+
+.brandblock img {
+  width: 179px;
+  height: 179px;
+  background-color: green;
+  float: left;
+  text-align: center;
+  margin: 10px 7px 20px 7px;
+}
+
+h1 {
+  font-family: 'Holtwood One SC', serif;
+  font-size: 4em;
+  text-align: center;
+  margin: 25px 0;
+  color: white;
+  line-height: .85em;
+  -ms-transform: rotate(-5deg) skewX(-5deg); /* IE 9 */
+  -webkit-transform: rotate(-5deg) skewX(-5deg); /* Safari */
+  transform: rotate(-5deg) skewX(-5deg); /* Standard syntax */
+}
+
+iframe {
+  margin: 0 auto;
+  display: block;
+}
